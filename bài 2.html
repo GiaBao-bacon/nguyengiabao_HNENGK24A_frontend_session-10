@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        background-color: rgba(180, 70, 70, 0.28);
+        padding: 20px;
+        gap: 20px;
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      h3 {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+      }
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 200px;
+      }
+
+      .box div {
+        background-color: #9f9595;
+        text-align: center;
+        border: 3px solid rgb(22, 22, 22);
+        border-radius: 8px;
+        padding: 10px 20px;
+        color: white;
+      }
+
+      .box img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Category</h3>
+      <div class="body">
+        <div class="box">
+          <div>FOOTBALL</div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Football_%28soccer_ball%29.svg/1200px-Football_%28soccer_ball%29.svg.png"
+            alt="FOOTBALL"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png"
+            alt="basketball"
+          />
+          <div>BASKETBALL</div>
+        </div>
+        <div class="box">
+          <div>CAR SPORT</div>
+          <img
+            src="https://i.abcnewsfe.com/a/f43853f3-9eaf-4048-9ae7-757332c5787e/mclaren-1-ht-gmh-240412_1712928561648_hpMain_16x9.jpg?w=1600"
+            alt="CARS"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="https://www.euroschoolindia.com/wp-content/uploads/2023/09/table-tennis-rules.jpg"
+            alt="Table_tennis"
+          />
+          <div>TABLE TENNIS</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
